@@ -1,0 +1,87 @@
+<header class="drawer drawer-end main-font-r text-(--cta-color)">
+    <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+
+    <!-- Contenu principal -->
+    <div class="drawer-content flex flex-col w-full">
+    <!-- Navbar -->
+    <div class="navbar w-full">
+        <!-- Logo -->
+        <div class="h-full flex-1 justify-start lg:w-6/10 flex lg:justify-start items-center">
+        <a class="mx-2 px-2 w-fit h-fit" href="/">
+            Livre d'or
+        </a>
+        </div>
+
+        <!-- Liens -->
+        <div class="hidden lg:flex lg:justify-end">
+        <ul class="flex items-center">
+            <!-- Accueil -->
+            <li>
+            <a class="btn btn-ghost text-xl" href="/">Accueil</a>
+            </li>
+
+            <li>
+            <a class="btn btn-ghost text-xl" href="/actu">Actualités</a>
+            </li>
+
+            <li>
+            <a class="btn btn-ghost text-xl" href="/real">Réalisations</a>
+            </li>
+
+            <li>
+            <a class="btn btn-ghost text-xl" href="/gallery">Galerie</a>
+            </li>
+        </ul>
+        </div>
+
+        <!-- Menu burger mobile -->
+        <div class="flex-none lg:hidden">
+        <label for="my-drawer-3" aria-label="open sidebar" class="btn btn-square btn-ghost">
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            class="inline-block h-6 w-6 stroke-current text-(--cta-color)"
+            >
+            <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+            </svg>
+        </label>
+        </div>
+    </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="drawer-side z-30">
+    <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay"></label>
+    <ul class="menu bg-white min-h-full w-80 p-4 pt-[64px]">
+        <li><a class="pl-8 text-lg" href="/actu">Accueil</a></li>
+
+        <li><a class="pl-8 text-lg" href="/actu">Actualités</a></li>
+
+        <li><a class="pl-8 text-lg" href="/real">Réalisations</a></li>
+        
+        <li><a class="pl-8 text-lg" href="/gallery">Galerie</a></li>
+    </ul>
+    </div>
+</header>
+<div class="ml-7 breadcrumbs text-lg">
+    <ul>
+    <li>
+        <a href=""></a>
+    </li>
+    <li>
+        <a href=""></a>
+    </li>
+    <li>
+        <a href=""></a>
+    </li>
+    <li>
+        <a href=""></a>
+    </li>
+    </ul>
+</div>
